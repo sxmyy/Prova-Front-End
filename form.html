@@ -3,13 +3,106 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">style.css
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
 </head>
 
 <body>
-    
+    <div class="wrapper">
+        <!-- nav -->
+        <nav>
+              <div class="logo">
+                  <a href="index.html"> <img src="img/logopng.png"></a>
+              </div>
+              <button>Outros carros</button>
+          </nav>
+          <main>
+            <!-- main text -->
+            <div class="main__text">
+                <h1>Nissan gt-r r35</h1>
+                <h3><spam>“A força vem de dentro”</spam></h3>
+
+                <div class="box">
+                    <form action="">
+                        <fieldset>
+                            <legend><b>Fórmulário de Clientes</b></legend>
+                            <br>
+                            <div class="inputBox">
+                                <input type="text" name="nome" id="nome" class="inputUser" required>
+                                <label for="nome" class="labelInput">Nome completo</label>
+                            </div>
+                            <br><br>
+                            <div class="inputBox">
+                                <input type="text" name="email" id="email" class="inputUser" required>
+                                <label for="email" class="labelInput">Email</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                <label for="telefone" class="labelInput">Telefone</label>
+                            </div>
+                            <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                            <input type="date" name="data_nascimento" id="data_nascimento" required>
+                            <br>
+                            <div class="inputBox">
+                                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                                <label for="cidade" class="labelInput">Cidade</label>
+                            </div>
+                            <br>
+                            <div class="inputBox">
+                                <input type="text" name="estado" id="estado" class="inputUser" required>
+                                <label for="estado" class="labelInput">Estado</label>
+                            </div>
+                            <br><br>
+                            <div class="inputBox">
+                                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                                <label for="endereco" class="labelInput">Endereço</label>
+                            </div>
+                            <br><br>
+                            <input type="submit" name="submit" id="submit">
+                        </fieldset>
+                    </form>
+                </div>
+
+
+                <div class="allfooter">
+                <section class="footer">
+                    <div class="social">
+                      <a href="https://www.youtube.com/user/nissanbrasil" target="_blank"><i class="fab fa-youtube"></i></a>
+                      <a href="https://instagram.com/nissanbrasil/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/nissanbrasil" target="_blank"><i class="fab fa-facebook"></i></a>
+                      <a href="https://twitter.com/Nissanbrasil" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://vm.tiktok.com/ZMLmpBUmS/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                      <a href="https://www.linkedin.com/company/nissan-brasil" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+              
+                    <ul class="list">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">Serviços</a>
+                      </li>
+                      <li>
+                        <a href="#">Termos</a>
+                      </li>
+                      <li>
+                        <a href="#">Sobre</a>
+                      </li>
+                      <li>
+                        <a href="#">Politica de Privacidade</a>
+                      </li>
+                      <p class="copyright">
+                        Programmed by sxmyy @ 2023
+                      </p>
+                      <p class="alert">
+                        Site não oficial.
+                      </p>
+                    </ul> 
+                  </section>
+                  </div>
 </body>
 </html>

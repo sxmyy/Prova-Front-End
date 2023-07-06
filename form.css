@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap&#39;');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+
+::selection{
+    background-color: #ff0101;
+    color: white;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+nav .logo{
+    width: 70px;
+    text-align: center;
+}
+nav .logo img{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: #1e1e1e;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+}
+
+nav button:hover{
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.footer {
+    padding: 170px 0 0;
+    margin-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+  }
+
+  .footer .social a {
+    font-size: 20px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: 0.7s;
+  }
+
+  .footer .social a:hover {
+    color: red;
+  }
+
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .footer ul a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.5s;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 12px;
+  }
+  .footer ul a:hover {
+    opacity: 1;
+    color: #c70000;
+    text-shadow: 0 0 3px #c70000;
+  }
+
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px; 
+  }
+
+  .footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  .footer .alert {
+    margin-top: 17px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  .allfooter {
+    margin-top: 520px;
+  }
+
+  .box{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 35%;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+fieldset{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+legend{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 4px;
+}
+
+legend .b {
+    padding: 5px;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 100%;
+    letter-spacing: 1px;
+    height: 40px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    margin-left: 10px;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(255, 0, 0), rgb(187, 0, 0));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 30px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(255, 0, 0), rgb(187, 0, 0));
+}
